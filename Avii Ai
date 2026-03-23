@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" style="color-scheme: dark;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Avii AI – Smart AI Note Taker & Study Companion</title>
+  <meta name="description" content="Join thousands of students using Avii AI to instantly turn lectures, PDFs, YouTube videos and voice notes into beautiful notes, flashcards, quizzes and podcasts — 100% free to start."/>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Avii AI - AI Note Taker & Study Tools"/>
+  <meta property="og:description" content="Turn anything into notes, flashcards, quizzes & podcasts instantly — free forever."/>
+  <meta property="og:image" content="https://imgur.com/z2HSBoc.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+
+  <!-- Favicon (replace with your own later) -->
+  <link rel="icon" href="https://via.placeholder.com/32/8b5cf6/ffffff?text=A" type="image/png"/>
+
+  <style>
+    :root {
+      --bg: #000;
+      --text: #ffffff;
+      --muted: #a1a1aa;
+      --accent: #8b5cf6;       /* purple-500 */
+      --accent-dark: #7c3aed;  /* purple-600 */
+      --gradient: linear-gradient(90deg, #a78bfa, #8b5cf6, #7c3aed);
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+    .container { max-width: 1400px; margin: 0 auto; padding: 0 1.5rem; }
+    a { color: inherit; text-decoration: none; }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 2.5rem;
+      font-size: 1.25rem;
+      font-weight: 700;
+      border-radius: 1rem;
+      background: var(--gradient);
+      color: white;
+      box-shadow: 0 10px 25px rgba(139, 92, 246, 0.35);
+      transition: all 0.3s ease;
+    }
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 35px rgba(139, 92, 246, 0.5);
+    }
+    .btn-outline {
+      padding: 1rem 2.5rem;
+      font-size: 1.25rem;
+      font-weight: 600;
+      border: 2px solid rgba(139,92,246,0.4);
+      border-radius: 1rem;
+      transition: all 0.3s;
+    }
+    .btn-outline:hover {
+      background: rgba(139,92,246,0.1);
+      border-color: var(--accent);
+    }
+    .gradient-text {
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .section-padding { padding: 8rem 0; }
+    .hero-gradient {
+      background: radial-gradient(circle at 50% 30%, rgba(139,92,246,0.18) 0%, transparent 60%);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <section class="relative min-h-screen flex items-center justify-center hero-gradient pt-20 pb-32 overflow-hidden">
+    <div class="container text-center relative z-10">
+      <div class="inline-flex items-center gap-3 px-6 py-3 rounded-full border border-purple-500/30 bg-purple-950/30 backdrop-blur-md mb-10 text-lg">
+        <span>✨</span>
+        <span>Thousands of students already learning faster with Avii AI</span>
+      </div>
+
+      <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-tight leading-none mb-8">
+        Meet <span class="gradient-text">Avii</span> AI
+      </h1>
+
+      <p class="text-xl md:text-3xl text-zinc-300 max-w-4xl mx-auto mb-12 font-light leading-relaxed">
+        Turn lectures • PDFs • YouTube videos • voice recordings<br/>
+        into beautiful notes, flashcards, quizzes & podcasts — instantly.
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-6 justify-center">
+        <a href="https://avii.ai/signup" class="btn-primary">
+          Get Started — 100% Free
+        </a>
+        <a href="https://avii.ai/how-it-works" class="btn-outline">
+          See how it works →
+        </a>
+      </div>
+    </div>
+
+    <!-- Decorative left beam -->
+    <img 
+      src="https://assets.api-turbo.ai/website/leftHeroVector.webp" 
+      class="absolute left-0 top-10 w-4/5 md:w-2/5 opacity-60 pointer-events-none select-none"
+      alt=""
+    />
+  </section>
+
+  <!-- Trusted by -->
+  <section class="py-20 bg-black/60">
+    <div class="container text-center">
+      <p class="text-zinc-400 mb-12 text-xl">Loved by students at top schools & companies</p>
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-10 md:gap-16 items-center justify-items-center opacity-90 grayscale">
+        <img src="https://assets.api-turbo.ai/website/logos/google.svg"    alt="Google"    class="h-10 md:h-12"/>
+        <img src="https://assets.api-turbo.ai/website/logos/harvard.svg"   alt="Harvard"   class="h-10 md:h-12"/>
+        <img src="https://assets.api-turbo.ai/website/logos/mit.svg"       alt="MIT"       class="h-10 md:h-12"/>
+        <img src="https://assets.api-turbo.ai/website/logos/stanford.svg"  alt="Stanford"  class="h-10 md:h-12"/>
+        <img src="https://assets.api-turbo.ai/website/logos/yale.svg"      alt="Yale"      class="h-10 md:h-12"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="section-padding bg-black/40">
+    <div class="container">
+      <h2 class="text-5xl md:text-6xl font-bold text-center mb-20">How Avii AI Works</h2>
+      <div class="grid md:grid-cols-4 gap-10 text-center">
+        <div>
+          <div class="w-20 h-20 mx-auto mb-6 rounded-2xl bg-purple-950/60 border border-purple-500/30 flex items-center justify-center text-4xl font-bold">1</div>
+          <h3 class="text-3xl font-semibold mb-4">Upload or Record</h3>
+          <p class="text-lg text-zinc-300">PDFs, YouTube links, audio files, or record live lectures directly.</p>
+        </div>
+        <div>
+          <div class="w-20 h-20 mx-auto mb-6 rounded-2xl bg-purple-950/60 border border-purple-500/30 flex items-center justify-center text-4xl font-bold">2</div>
+          <h3 class="text-3xl font-semibold mb-4">AI Processes</h3>
+          <p class="text-lg text-zinc-300">Automatically transcribes, understands and organizes key information.</p>
+        </div>
+        <div>
+          <div class="w-20 h-20 mx-auto mb-6 rounded-2xl bg-purple-950/60 border border-purple-500/30 flex items-center justify-center text-4xl font-bold">3</div>
+          <h3 class="text-3xl font-semibold mb-4">Get Study Tools</h3>
+          <p class="text-lg text-zinc-300">Beautiful notes + flashcards + quizzes + audio summaries in seconds.</p>
+        </div>
+        <div>
+          <div class="w-20 h-20 mx-auto mb-6 rounded-2xl bg-purple-950/60 border border-purple-500/30 flex items-center justify-center text-4xl font-bold">4</div>
+          <h3 class="text-3xl font-semibold mb-4">Learn Anywhere</h3>
+          <p class="text-lg text-zinc-300">Web + mobile — synced, offline access, study whenever you want.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section-padding">
+    <div class="container">
+      <h2 class="text-5xl md:text-6xl font-bold text-center mb-20">What Students Are Saying</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <blockquote class="p-8 rounded-2xl border border-purple-500/20 bg-purple-950/10 backdrop-blur-sm">
+          <p class="text-xl mb-6">"Avii turned my huge bio textbook into short podcasts — perfect for my commute."</p>
+          <footer class="text-zinc-400 text-lg">— Olivia C., Pre-med</footer>
+        </blockquote>
+        <blockquote class="p-8 rounded-2xl border border-purple-500/20 bg-purple-950/10 backdrop-blur-sm">
+          <p class="text-xl mb-6">"Organic chemistry lectures are brutal. Avii records + quizzes me until I get it."</p>
+          <footer class="text-zinc-400 text-lg">— Sarah K., Chemistry Major</footer>
+        </blockquote>
+        <blockquote class="p-8 rounded-2xl border border-purple-500/20 bg-purple-950/10 backdrop-blur-sm">
+          <p class="text-xl mb-6">"Avii outlines papers and lets me speak exactly how I want each section written."</p>
+          <footer class="text-zinc-400 text-lg">— Elena R., PhD Student</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="section-padding text-center bg-gradient-to-b from-black via-purple-950/20 to-black">
+    <div class="container">
+      <h2 class="text-5xl md:text-7xl font-extrabold mb-8">Ready to learn faster?</h2>
+      <p class="text-2xl md:text-3xl text-zinc-300 mb-12 max-w-4xl mx-auto">
+        Join thousands of students already using Avii AI — completely free, no credit card needed.
+      </p>
+      <a href="https://avii.ai/signup" class="btn-primary text-2xl px-16 py-7">
+        Start Using Avii AI Free →
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-16 border-t border-white/10 text-center text-zinc-500">
+    <div class="container">
+      <p>© 2026 Avii AI. All rights reserved.</p>
+      <div class="mt-6 flex justify-center gap-10 text-lg">
+        <a href="https://avii.ai/privacy" class="hover:text-white transition-colors">Privacy</a>
+        <a href="https://avii.ai/terms" class="hover:text-white transition-colors">Terms</a>
+        <a href="https://avii.ai/blog" class="hover:text-white transition-colors">Blog</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
